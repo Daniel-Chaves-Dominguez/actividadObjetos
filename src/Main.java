@@ -23,7 +23,7 @@ public class Main {
 
         // Crea 2 Clientes
         Cliente Rafa = new Cliente("Rafa", "apruebame1234", 77895620, 1997, album2 , 1046);
-        Cliente Melissa = new Cliente("Melissa", "nosoydeaqui", 1, 1979, album1, 1);
+        Cliente Melissa = new Cliente("Melissa", "nosoydeaqui", 77677877, 1979, album1, 10);
 
 
         //Crea 1 administrador y asignar un artículo a un cliente
