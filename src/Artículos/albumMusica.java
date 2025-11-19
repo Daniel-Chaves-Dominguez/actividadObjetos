@@ -1,19 +1,19 @@
 package Artículos;  //Aquí nos indica que la clase "albumMusica" está metido en la carpeta "Artículos".
 
-public class AlbumMusica  extends Articulo {   // Nombramos los componentes de la clase "albumMusica" y le hacemos heredar los componentes de la clase padre "Articulo".
+public class albumMusica  extends Articulo {   // Nombramos los componentes de la clase "albumMusica" y le hacemos heredar los componentes de la clase padre "Articulo".
     private String autor;
     private int  numCanciones;
     private boolean single;
 
     //Constructores:
-    public AlbumMusica(String titulo, int anhoLanzamiento, double precioPorDia, String autor, int numCanciones, boolean single) {   // Creamos el Constructor con todos los componentes de la clase padre "Articulo" junto con todos los componentes de "albumMusica".
+    public albumMusica(String titulo, int anhoLanzamiento, double precioPorDia, String autor, int numCanciones, boolean single) {   // Creamos el Constructor con todos los componentes de la clase padre "Articulo" junto con todos los componentes de "albumMusica".
         super(titulo, anhoLanzamiento, precioPorDia); // Esto es lo que la clase "albumMusica" ha heredado de la clase padre.
         this.autor = autor;
         this.numCanciones = numCanciones;
         this.single = single;
     }
 
-    public AlbumMusica() {  // Creamos otro Constructor totalmente vacío, incluso sin la clase padre.
+    public albumMusica() {  // Creamos otro Constructor totalmente vacío, incluso sin la clase padre.
     }
 
     // Generamos todos los "Getters and Setters".
