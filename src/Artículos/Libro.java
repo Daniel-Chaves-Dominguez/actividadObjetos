@@ -3,7 +3,7 @@ package Artículos;  //Aquí nos indica que la clase "Libro" está metido en la 
 public class Libro  extends Articulo {  // Nombramos los componentes de la clase "Libro" y le hacemos heredar los componentes de la clase padre "Articulo".
     private String autor;
     private int numPaginas;
-    public enum Genero { MISTERIO, TERROR, ACCION, FANTASIA }  // Creamos un "enum" para implementarle posibles géneros que puede ser el libro que queramos poner en el Main.
+    public enum Genero { MISTERIO, TERROR, ACCION, FANTASIA, HISTORIA }  // Creamos un "enum" para implementarle posibles géneros que puede ser el libro que queramos poner en el Main.
     private Genero genero;
 
     //Constructores:

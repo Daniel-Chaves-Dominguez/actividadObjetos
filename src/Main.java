@@ -1,7 +1,7 @@
 import Artículos.Libro;
 import Artículos.Pelicula;
 import Artículos.Videojuego;   // Todas las clases y carpetas que hemos importado al Main.
-import Artículos.albumMusica;
+import Artículos.AlbumMusica;
 import Usuarios.Administrador;
 import Usuarios.Cliente;
 
@@ -19,12 +19,12 @@ public class Main {
         Libro libro1 = new Libro("El Código Da Vinci", 2016, 4, "Dan Brown", 480, Libro.Genero.MISTERIO);
         Libro libro2 = new Libro("Los Pilares de la Tierra", 1989, 3, "Ken Follet", 811, Libro.Genero.FANTASIA);
 
-        albumMusica album1 = new albumMusica("Intuición", 2018, 2, "Gian Marco", 11, true);
-        albumMusica album2 = new albumMusica("Tropicoqueta", 2025, 2, "Karol G", 5, true);
+        AlbumMusica album1 = new AlbumMusica("Intuición", 2018, 2, "Gian Marco", 11, true);
+        AlbumMusica album2 = new AlbumMusica("Tropicoqueta", 2025, 2, "Karol G", 5, true);
 
         // Crea 2 Clientes
         Cliente Rafa = new Cliente("Rafa", "apruebame1234", 77895620, 1997, album2 , 1046);
-        Cliente Melissa = new Cliente("Melissa", "nosoydeaqui", 1, 1979, album1, 1);
+        Cliente Melissa = new Cliente("Melissa", "nosoydeaqui", 77677877, 1979, album1, 10);
 
 
         //Crea 1 administrador y asignar un artículo a un cliente
