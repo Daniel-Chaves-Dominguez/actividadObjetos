@@ -36,6 +36,7 @@ public class Pelicula extends Articulo {  // Nombramos los componentes de la cla
     public void getDuracionHorasYMinutos() {   // Hacemos la fórmula matemática para calcular cuántas horas y minutos dura la película. El resultado será devuelto una vez lo llamemos en el Main.
         int horas = this.duracion / 60;
         int minutos = this.duracion % 60;
+        System.out.println(horas + "horas y " + minutos + "minutos");
     }
 
 
