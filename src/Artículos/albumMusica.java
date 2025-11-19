@@ -1,6 +1,6 @@
 package Artículos;  //Aquí nos indica que la clase "albumMusica" está metido en la carpeta "Artículos".
 
-public class albumMusica  extends Articulo {   // Nombramos los componentes de la clase "albumMusica" y le hacemos heredar los componentes de la clase padre "Articulo".
+public class AlbumMusica  extends Articulo {   // Nombramos los componentes de la clase "albumMusica" y le hacemos heredar los componentes de la clase padre "Articulo".
     private String autor;
     private int  numCanciones;
     private boolean single;
